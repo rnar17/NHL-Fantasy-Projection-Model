@@ -9,7 +9,7 @@ from nhl_functions import atoi_to_seconds, normalize_cols, player_comparison_too
 cols_to_round = ['proj_G', 'proj_A', 'proj_+/-', 'proj_PIM', 'proj_PPP', 'proj_ATOI', 'proj_S', 'proj_BLK', 'proj_HIT']
 
 # Store dataframe from excel
-stats_df = pd.read_excel(r"C:\Users\naray\Documents\Coding Projects\stats_df.xlsx")
+stats_df = pd.read_excel("stats_df.xlsx")
 stats_df.drop(columns=[stats_df.columns[0]], inplace=True)
 
 # Create a unique ID for each player

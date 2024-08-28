@@ -63,4 +63,4 @@ for season in seasons:
     sleep(randint(10, 25))
 
 # Export dataframe to excel for future use
-stats_df.to_excel(r"C:\Users\naray\Documents\Coding Projects\stats_df.xlsx", engine='xlsxwriter')
+stats_df.to_excel(r"C:\Users\naray\Documents\Coding Projects\NHL Projection Model\stats_df.xlsx", engine='xlsxwriter')
